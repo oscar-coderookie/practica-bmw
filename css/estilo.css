@@ -1,0 +1,279 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ----------------header--------------------- */
+.header{
+    background: url(https://www.bmw.es/content/dam/bmw/common/all-models/m-series/m8-coupe/2019/inspire/bmw-m8competition-coupe-inspire-sp-desktop_v2.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1557838030478.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:80vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.header__subhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 130px;
+    margin: 0 auto;
+    width: 60%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.header-nav__links{
+    text-decoration: none;
+    color: white; 
+    padding: 0px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.header-icons__links{
+    color: white;
+    padding:0px 20px;
+    font-size: 20px;
+}
+.header__container-img{
+    width: 250px;
+}
+.header__container-img__logo{
+    width: 115px;
+}
+.header__txt-container{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 0;
+}
+.header__text-container__h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.header__text-container__h3{
+    color: white;
+    font-size:24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.header__text-container__button{
+    background-color:rgb(26, 58, 240);
+    /* width:220px;
+    height: 50px; */
+    color: white;
+    font-weight: 500;
+    padding:10px 65px;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all .3s ease-in;
+}
+.header__text-container__button:hover{
+    background-color: white;
+    color:rgb(26, 58, 240);
+    transition: all .2s ease-in;
+}
+.models{
+    width: 100%;
+    height: auto;
+}
+.models__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.models__h3{
+    color:gray;
+    width: 80px;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding: 30px 0px 30px 390px;
+}
+.models__nav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.models__nav__links{
+    text-decoration: none;
+    font-weight: 500;
+    padding:20px 20px;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+    color: rgb(141, 141, 141);
+    transition: all .3s ease-in;
+}
+.models__nav__links:hover{
+    color: black;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-bottom: 3px solid rgb(26, 58, 240);
+    font-size: 32px;
+}
+.models__gallery{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    flex-wrap: wrap;
+    padding:0px 30px;
+    justify-content: space-between;
+}
+.models__gallery__box{
+    width: 300px;  
+}
+.models__gallery__box__img{
+    width: 100%;
+}
+
+.models__gallery__box__b{
+    display: flex;
+    flex-direction: column;
+}
+.models__gallery__box__b__links{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 3px 0px
+}
+.models__gallery__box__h3{
+    color: rgb(179, 179, 179);
+    padding-bottom: 10px;
+    
+}
+.banners{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.banners__figure{
+    width: 16%;
+    height: 370px;
+    padding: 10px;
+    margin:0px 5px;
+    border:1px solid rgba(163, 163, 163, 0.26) ;
+}
+.banners__figure__img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+.banners__figure__h2{
+    font-size: 32px;
+    padding-bottom: 5px;
+}
+.banners__figure__p{
+    padding-bottom: 10px
+}
+.banners__figure__a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.promo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px 0px;
+}
+.promo__container{
+    width: 33%;
+    height: 380px;
+    padding: 10px;
+    margin:0px 5px;
+    border:1px solid rgba(163, 163, 163, 0.26) ;
+}
+.promo__container__img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.promo__container__h2{
+    font-size: 32px;
+    padding-bottom: 5px;
+}
+.promo__container__link{
+    text-decoration: none;
+    font-weight: 600;
+    padding:5px 0px;
+    color: black;
+}
+.menu-foot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 60px ;
+}
+.menu-foot__container{
+    background: rgb(236, 236, 236);
+    margin:0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:40px 110px;
+}
+.menu-foot__container__span{
+    font-size: 30px;
+}
+.menu-foot__container__a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+    padding: 10px 0px;
+    font-weight: 600;
+}
+footer{
+    background: rgb(212, 212, 212);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer__menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}
+.footer__menu-sub__ul{
+    width: 350px;
+    height: auto;
+    list-style: none;
+}
+.footer__menu-sub__h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer__menu-sub__li__a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height:30px ;
+    color: rgb(126, 126, 126);
+    padding: px 0px;
+    font-weight: 600;
+}
