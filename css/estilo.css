@@ -167,19 +167,29 @@
 }
 .banners__figure{
     width: 16%;
-    height: 370px;
+    height: 400px;
     padding: 10px;
     margin:0px 5px;
     border:1px solid rgba(163, 163, 163, 0.26) ;
 }
 .banners__figure__img{
     width: 100%;
-    height: 50%;
+    height: 40%;
     object-fit: cover;
 }
 .banners__figure__h2{
     font-size: 32px;
+    text-align: center;
     padding-bottom: 5px;
+}
+.card-cars{
+    height:430px
+}
+.card-cars__header{
+    align-items: center;
+}
+.card-cars__body{
+    height:180px;
 }
 .banners__figure__p{
     padding-bottom: 10px
@@ -196,16 +206,9 @@
     justify-content: center;
     padding: 60px 0px;
 }
-.promo__container{
-    width: 33%;
-    height: 380px;
-    padding: 10px;
-    margin:0px 5px;
-    border:1px solid rgba(163, 163, 163, 0.26) ;
-}
 .promo__container__img{
     width: 100%;
-    height: 80%;
+    height: 300px;
     object-fit: cover;
 }
 .promo__container__h2{
@@ -227,7 +230,8 @@
 }
 .menu-foot__container{
     background: rgb(236, 236, 236);
-    margin:0px 10px;
+    height: 160px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,8 +241,11 @@
 .menu-foot__container__span{
     font-size: 30px;
 }
+
 .menu-foot__container__a{
     font-size: 16px;
+    width: 120px;
+    text-align: center;
     text-decoration: none;
     color: rgb(126, 126, 126);
     padding: 10px 0px;
@@ -246,7 +253,7 @@
 }
 footer{
     background: rgb(212, 212, 212);
-    height: 400px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -276,4 +283,16 @@ footer{
     color: rgb(126, 126, 126);
     padding: px 0px;
     font-weight: 600;
+}
+
+@media (max-width: 1024) {
+    .header__text-container__h1{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1;
+        padding-bottom: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
 }
